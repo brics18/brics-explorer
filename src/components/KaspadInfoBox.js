@@ -9,7 +9,7 @@ const KaspadInfoBox = () => {
     const [data, setData] = useState({});
 
     async function updateData() {
-        await fetch('https://api.ixbase.info/info/kaspad')
+        await fetch('https://api.bricspro.site/info/bricsd')
             .then((response) => response.json())
             .then(d => setData(d))
             .catch(err => console.log("Error", err))
@@ -32,7 +32,7 @@ const KaspadInfoBox = () => {
                 </tr>
                 <tr>
                     <td colspan="2" className="text-center">
-                        <h3>GOR INFO</h3>
+                        <h3>BRICS INFO</h3>
                     </td>
                 </tr>
                 <tr>
