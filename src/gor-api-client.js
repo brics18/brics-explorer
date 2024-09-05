@@ -1,4 +1,4 @@
-const API_BASE = "https://api.ixbase.info/"
+const API_BASE = "https://api.bricspro.site/"
 
 export async function getBlock(hash) {
     const res = await fetch(`${API_BASE}blocks/${hash}`, { headers: { 'Access-Control-Allow-Origin': '*' } })

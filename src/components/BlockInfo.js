@@ -134,7 +134,7 @@ const BlockInfo = () => {
                                     <Col className="blockinfo-key" lg={2}>Hash</Col>
                                     <Col className="blockinfo-value-mono" lg={10}>{blockInfo.verboseData.hash}
                                         <CopyButton text={blockInfo.verboseData.hash} />
-                                        <OverlayTrigger overlay={<Tooltip id="tooltip-kgi">Open in Gor Graph Inspector</Tooltip>}>
+                                        <OverlayTrigger overlay={<Tooltip id="tooltip-kgi">Open in Brics Graph Inspector</Tooltip>}>
                                             <span>
                                                 <BiNetworkChart className="ms-2 copy-symbol" size="20" onClick={() => { window.open(`https://kgi.kaspad.net/?hash=${id}`, '_blank'); }} />
                                             </span>
@@ -260,7 +260,7 @@ const BlockInfo = () => {
                                                                 </Col><Col className="me-auto" xs={12} sm={4} md={2}></Col>
                                                                 </>}
                                                         </Row>)}
-                                                        {!tx.inputs ? <Row><Col xs={12} sm={8} md="auto" className="text-truncate">COINBASE (New coins)</Col></Row> : <></>}
+                                                        {!tx.inputs ? <Row><Col xs={12} sm={8} md="auto" className="text-truncate">Block reward</Col></Row> : <></>}
 
                                                     </Container>
 
@@ -276,14 +276,14 @@ const BlockInfo = () => {
                                                                 </Link>
 
                                                                 <CopyButton text={txOutput.verboseData.scriptPublicKeyAddress} />
-                                                            </Col><Col className="block-utxo-amount" xs={12} sm={4} md={3}>+{numberWithCommas(txOutput.amount / 100000000)}&nbsp;GOR</Col>
+                                                            </Col><Col className="block-utxo-amount" xs={12} sm={4} md={3}>+{numberWithCommas(txOutput.amount / 100000000)}&nbsp;BRICS</Col>
                                                         </Row>)}
                                                     </Container>
                                                 </Col>
                                             </Col>
                                             <Col sm={5} md={4}>
                                                 <div className="utxo-header mt-3">tx amount</div>
-                                                <div className="utxo-value d-flex flex-row"><div className="utxo-amount">{(numberWithCommas(tx.outputs.reduce((a, b) => (a || 0) + parseInt(b.amount), 0) / 100000000))} GOR</div></div>
+                                                <div className="utxo-value d-flex flex-row"><div className="utxo-amount">{(numberWithCommas(tx.outputs.reduce((a, b) => (a || 0) + parseInt(b.amount), 0) / 100000000))} BRICS</div></div>
                                             </Col>
                                             <Col sm={3} md={2}>
                                                 <div className="utxo-header mt-3">tx value</div>

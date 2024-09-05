@@ -42,7 +42,7 @@ const CBox = () => {
     }, [])
 
     async function getBlockReward() {
-        await fetch('https://api.ixbase.info/info/blockreward')
+        await fetch('https://api.bricspro.site/info/blockreward')
             .then((response) => response.json())
             .then(d => {
                 setBlockReward(d.blockreward.toFixed(2))
@@ -83,13 +83,13 @@ const CBox = () => {
                     <td className="cardBoxElement align-top">
                         Total</td>
                     <td className="">
-                        <div id="coins">{numberWithCommas(circCoins)} GOR
+                        <div id="coins">{numberWithCommas(circCoins)} BRICS
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Max <span className="approx">(approx.)</span></td>
-                    <td className="pt-1">28,700,000,000 GOR</td>
+                    <td className="pt-1">28,700,000,000 BRICS</td>
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Mined</td>
@@ -97,7 +97,7 @@ const CBox = () => {
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Block reward</td>
-                    <td className="pt-1">{blockReward} GOR</td>
+                    <td className="pt-1">{blockReward} BRICS</td>
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Reward reduction
@@ -107,7 +107,7 @@ const CBox = () => {
                             </span>
                         </OverlayTrigger> */}
                     </td>
-                    <td className="pt-1">{halvingDate}<br /><div className="text-end w-100 pe-3 pt-1" style={{ fontSize: "small" }}>to {halvingAmount} GOR</div></td>
+                    <td className="pt-1">{halvingDate}<br /><div className="text-end w-100 pe-3 pt-1" style={{ fontSize: "small" }}>to {halvingAmount} BRICS</div></td>
                 </tr>
             </table>
         </div>

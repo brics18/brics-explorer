@@ -1,6 +1,6 @@
-# GOR EXPLORER
+# BRICS EXPLORER
 
-This is the source code for Kaspa Explorer [https://explorer.ixbase.info](https://explorer.ixbase.info) written in JS with React.JS library.
+This is the source code for Kaspa Explorer [https://explorer18.GORBANIOV.info](https://explorer18.GORBANIOV.info) written in JS with React.JS library.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

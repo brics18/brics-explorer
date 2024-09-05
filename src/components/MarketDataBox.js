@@ -38,7 +38,7 @@ const MarketDataBox = () => {
                 </tr>
                 <tr>
                     <td className="cardBoxElement">Price</td>
-                    <td>$ {price} / GOR</td>
+                    <td>$ {price} / BRICS</td>
                 </tr>
                 <tr>
                     <td style={{ fontSize: "small" }} className="cardBoxElement" align="right">1h %</td>
@@ -50,8 +50,8 @@ const MarketDataBox = () => {
                 <tr>
                     <td style={{ fontSize: "small" }} className="cardBoxElement" align="right">24h %</td>
                     <td style={{ fontSize: "small" }} className="utxo-value-mono">
-                        {marketData?.price_change_percentage_24h > 0 ? <IoMdTrendingUp color='#398851' /> : <IoMdTrendingDown color='#d63328' />}
-                        {marketData?.price_change_percentage_24h?.toFixed(1)} %<br />
+                        {marketData?.price_change_percent > 0 ? <IoMdTrendingUp color='#398851' /> : <IoMdTrendingDown color='#d63328' />}
+                        {marketData?.price_change_percent}<br />
                     </td>
                 </tr>
                 <tr>
@@ -67,7 +67,7 @@ const MarketDataBox = () => {
                 </tr>
                 <tr>
                     <td className="cardBoxElement">MCAP</td>
-                    <td className="pt-1">$ {(circCoinsMData * price / 1000000).toFixed(2)} M <a href="https://www.coingecko.com/en/coins/kaspa" target="_blank" className="rank ms-1">Rank #{marketData?.market_cap_rank}</a></td>
+                    <td className="pt-1">$ {(circCoinsMData * price / 1000000).toFixed(2)} M <a href="https://www.coingecko.com/en/coins/gor" target="_blank" className="rank ms-1">Rank #{marketData?.market_cap_rank}</a></td>
                 </tr>
             </table>
         </div>
