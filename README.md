@@ -14,4 +14,4 @@ Do you have any new ideas, wishes or bugs? Contact [https://t.me/brics](https://
 
 ## DONATION ♥
 
-Please consider a donation for my work: [gor:qqkqkzjvr7zwxxmjxjkmxxdwju9kjs6e9u82uh59z07vgaks6gg62v8707g73](https://explorer.ixbase.info/addresses/gor:qq8y6lplj8p00kcuksx6uyuc572vculsfhvyqpr4l9dhgmhrgxv0qcelplwcj)
+Please consider a donation for my work: [brics:qp2cdyrzm28u4w6nwyr2cfrl3t5gqprevf6dk3s8zpq08tuzf2lkc6ppau92p](https://explorer.bricspro.site/addresses/brics:qp2cdyrzm28u4w6nwyr2cfrl3t5gqprevf6dk3s8zpq08tuzf2lkc6ppau92p)
