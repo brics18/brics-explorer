@@ -1,6 +1,6 @@
 # BRICS EXPLORER
 
-This is the source code for Kaspa Explorer [https://explorer18.GORBANIOV.info](https://explorer18.GORBANIOV.info) written in JS with React.JS library.
+This is the source code for Brics Explorer [https://explorer18.bricspro.site](https://explorer18.bricspro.site) written in JS with React.JS library.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -10,7 +10,7 @@ For developing this you need Node.JS and just npm install.
 
 ## Any ideas?
 
-Do you have any new ideas, wishes or bugs? Contact [https://t.me/gorbaniov](https://t.me/gorbaniov)
+Do you have any new ideas, wishes or bugs? Contact [https://t.me/brics](https://t.me/brics)
 
 ## DONATION ♥
 
