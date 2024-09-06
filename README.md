@@ -1,6 +1,6 @@
 # BRICS EXPLORER
 
-This is the source code for Brics Explorer [https://explorer18.bricspro.site](https://explorer18.bricspro.site) written in JS with React.JS library.
+This is the source code for Brics Explorer [https://explorer.bricspro.site](https://explorer.bricspro.site) written in JS with React.JS library.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
