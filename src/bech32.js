@@ -77,7 +77,7 @@ export const parsePayload = (payload) => {
     if (script[0] < 0x76) {
         const address_size = script[0];
         let address = script.slice(1, address_size + 1);
-        return [encodeAddress("gor", address, version), String.fromCharCode(...buffer.slice(19 + length, buffer.length))];
+        return [encodeAddress("brics", address, version), String.fromCharCode(...buffer.slice(19 + length, buffer.length))];
     }
     return [payload, ""];
 }

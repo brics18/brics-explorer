@@ -1,7 +1,7 @@
 import { faDiagramProject } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect, useState } from "react";
-import { getBlockdagInfo } from '../gor-api-client';
+import { getBlockdagInfo } from '../brics-api-client';
 
 
 const BlockDAGBox = () => {
@@ -139,7 +139,7 @@ const BlockDAGBox = () => {
                         Hashrate
                     </td>
                     <td className="pt-1" id="hashrate">
-                        {(hashrate / 1000000).toFixed(3)} TH/s
+                        {(hashrate / 1000).toFixed(3)} TH/s
                     </td>
                 </tr>
             </table>
