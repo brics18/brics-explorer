@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { HiCurrencyDollar } from 'react-icons/hi';
 import { IoMdTrendingDown, IoMdTrendingUp } from 'react-icons/io';
 import { numberWithCommas } from "../helper";
-import { getCoinSupply } from '../gor-api-client';
+import { getCoinSupply } from '../brics-api-client';
 import PriceContext from "./PriceContext";
 
 
@@ -67,7 +67,7 @@ const MarketDataBox = () => {
                 </tr>
                 <tr>
                     <td className="cardBoxElement">MCAP</td>
-                    <td className="pt-1">$ {(circCoinsMData * price / 1000000).toFixed(2)} M <a href="https://www.coingecko.com/en/coins/gor" target="_blank" className="rank ms-1">Rank #{marketData?.market_cap_rank}</a></td>
+                    <td className="pt-1">$ {(circCoinsMData * price / 1000000).toFixed(2)} M <a href="https://www.coingecko.com/en/coins/brics" target="_blank" className="rank ms-1">Rank #{marketData?.market_cap_rank}</a></td>
                 </tr>
             </table>
         </div>
