@@ -15,3 +15,5 @@ Do you have any new ideas, wishes or bugs? Contact [https://t.me/brics](https://
 ## DONATION ♥
 
 Please consider a donation for my work: [brics:qp2cdyrzm28u4w6nwyr2cfrl3t5gqprevf6dk3s8zpq08tuzf2lkc6ppau92p](https://explorer.bricspro.site/addresses/brics:qp2cdyrzm28u4w6nwyr2cfrl3t5gqprevf6dk3s8zpq08tuzf2lkc6ppau92p)
+
+##
