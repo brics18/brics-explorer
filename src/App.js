@@ -89,14 +89,14 @@ function App() {
   }
 
     const updatePrice = () => {
-        fetch(`https://financex.trade/api/v2/trade/public/markets/tickers`, {
+        fetch(`https://fcex.trade/api/v2/trade/public/markets/tickers`, {
             headers: { "Cache-Control": "no-cache" }
         })
         .then(response => response.json())
         .then(data => {
-            const gorusdtData = data['gorusdt'];
-            setPrice(gorusdtData.ticker.last);
-            setMarketData(gorusdtData.ticker);
+            const bricsusdtData = data['bricsusdt'];
+            setPrice(bricsusdtData.ticker.last);
+            setMarketData(bricsusdtData.ticker);
         })
         .catch(error => console.log(error));
     };

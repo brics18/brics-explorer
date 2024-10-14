@@ -250,7 +250,7 @@ const BlockInfo = () => {
                                                                     </Link>
                                                                     <CopyButton text={getAddrFromOutputs(txInfo[txInput.previousOutpoint.transactionId]["outputs"], txInput.previousOutpoint.index || 0)} />
                                                                 </Col><Col className="block-utxo-amount-minus" xs={12} sm={4} md={2}>
-                                                                    -{numberWithCommas(getAmountFromOutputs(txInfo[txInput.previousOutpoint.transactionId]["outputs"], txInput.previousOutpoint.index || 0))}&nbsp;GOR
+                                                                    -{numberWithCommas(getAmountFromOutputs(txInfo[txInput.previousOutpoint.transactionId]["outputs"], txInput.previousOutpoint.index || 0))}&nbsp;BRICS
                                                                 </Col></>
                                                                 :
                                                                 <><Col xs={12} sm={8} md={9} lg={9} xl={8} xxl={7} className="text-truncate">
